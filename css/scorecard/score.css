@@ -103,7 +103,7 @@ td.status {
   }
   ul li a {
     font-size: 10px;
-    padding: 0 10px;
+    padding: 0 8px;
   }
   td:nth-child(1) {
     display: flex;
