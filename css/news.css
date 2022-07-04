@@ -82,13 +82,16 @@ ul li a:hover {
   }
   .box-item {
     min-width: 100vw;
+    max-width: 600px;
+    min-height: 200px;
+    max-height: 200px;
   }
   ul li a {
     font-size: 10px;
     padding: 0 8px;
   }
   .box-item h2 {
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 10px;
   }
   .box-item p {
