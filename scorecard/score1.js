@@ -247,5 +247,3 @@ document.getElementById("e2t1").innerHTML = parseFloat(
 
 let adi = batting.GT.n1[1];
 console.log(adi);
-
-export default adi;
