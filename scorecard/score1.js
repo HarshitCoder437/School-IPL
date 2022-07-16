@@ -1,4 +1,4 @@
-let batting = {
+export let batting = {
   GT: {
     n1: ["Aditya", 7, 5, 1, 0],
     n2: ["Vicky", 9, 11, 2, 0],
@@ -16,8 +16,11 @@ let batting = {
     extras: 9,
   },
 };
-let bowling = {
-  GT: { n1: ["Aditya", 3, 36, 0, 0], n2: ["Vicky", 2.3, 29, 0, 0] },
+export let bowling = {
+  GT: {
+    n1: ["Aditya", 3, 36, 0, 0],
+    n2: ["Vicky", 2.3, 29, 0, 0],
+  },
   CSK: {
     n1: ["Harshit", 1, 10, 0, 0],
     n2: ["Rishikesh", 1, 7, 1, 0],
@@ -244,6 +247,3 @@ document.getElementById("e2t1").innerHTML = parseFloat(
 // document.getElementById("e5t2").innerHTML = parseFloat(
 // bowling.CSK.n5[2] / bowling.CSK.n5[1]
 // ).toFixed(2);
-
-let adi = batting.GT.n1[1];
-console.log(adi);
